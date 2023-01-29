@@ -1,0 +1,137 @@
+body {
+    background-color: khaki;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h6 {
+    text-align: center;
+}
+
+header > img {
+    display: block;
+    height: 350px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container {
+    background-color: gray;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 10px;
+    justify-content: stretch;
+    
+
+}
+
+.container li {
+    list-style-type: none;
+}
+
+.container ul {
+    text-align: center;
+}
+
+.container li a {
+    display: inline-block;
+    padding: 15px;
+    margin: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.head1 {
+    background-image: url("images/heading2.3.jpg");
+    width:1300px;
+    height:220px;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+
+.contain {
+    margin-top: 10px;
+}
+
+
+
+article {
+    margin: 10px;
+}
+
+.content {
+    background-color: bisque;
+    width:388px;
+    height:550px;
+    text-align: center;
+    border:1px solid burlywood;
+    box-sizing:border-box;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 15%;
+    padding: 10px;
+   
+    
+
+}
+
+.content p {
+    text-align: left;
+}
+
+.content a {
+    text-align: left;
+}
+
+
+
+footer {
+    display: flex;
+    padding-top: 2%;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer div img {
+    height: 130px;
+    width: 100px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    box-sizing:border-box;
+    padding: 5px;
+    margin-top: 2px;
+    
+}
+
+footer div p {
+    text-align: right;
+    border-top: 1px solid black;
+    
+    padding: 5px;
+    
+}
